@@ -1,0 +1,72 @@
+/* style.css */
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Навигационная панель */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav .navbar-nav {
+    float: right;
+  }
+  
+  nav .navbar-nav a,
+  nav .navbar-nav span {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  nav .navbar-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Кнопки */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Контейнер для полей ввода */
+  #inputContainer {
+    margin-top: 20px;
+  }
+  
+  #inputContainer input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
