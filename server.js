@@ -22,6 +22,11 @@ async function testConnection() {
   testConnection();
 
 
+const startPage = require("./routes/startPage")
+
+app.use("/", startPage)
+
+
   app.listen(PORT, () => {
     console.log(`*** Server started at ${PORT} port ***`);
   });
